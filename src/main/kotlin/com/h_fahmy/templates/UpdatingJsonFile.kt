@@ -61,7 +61,7 @@ fun startUpdating(interval: Duration) {
             // final result json object
             val result = JsonObject(
                 mapOf(
-                    "version" to JsonPrimitive("2.0"),
+                    "version" to JsonPrimitive("2"),
                     "templates" to combinedTemplates
                 )
             )
